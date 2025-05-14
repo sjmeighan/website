@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              garamond: ['"EB Garamond"', 'serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="icon" href="HR_BW.png" />
+  </head>
+  <body class="bg-white text-black font-garamond">
+    <header class="border-b p-4 flex justify-between items-center">
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="flex items-center gap-4">
+        <img src="HR_BW.png" alt="High Rock Consultancy Logo" class="h-10" />
+        <h1 class="text-2xl font-bold">Law, Technology &amp Governance</h1>
+        </a>
+      </div>
+      <nav class="space-x-4 text-sm">
+        <a href="index.html" class="hover:underline">About</a>
+        <a href="publications.html" class="hover:underline">Publications</a>
+        <a href="teaching.html" class="hover:underline">Teaching</a>
+        <a href="conferences.html" class="hover:underline">Conferences</a>
+        <a href="blog.html" class="hover:underline">Blog</a>
+      </nav>
+    </header>
+    <main class="max-w-3xl mx-auto py-12 px-4">
+
+<h2 class="text-xl font-semibold mb-4">Blog</h2>
+<ul class="space-y-4">
+<h3>New Book Coming Soon</h3>
+    <li>
+    <p><a href="https://www.claruspress.ie/shop/money-laundering-in-ireland-context-history-and-the-law/" class="text-blue-600 hover:underline">{Clarus Press Website]</a></p>
+  </li>
+  <li>
+    <p><img src="book.png" alt="money laundering in ireland book" /></p>
+  </li>
+
+
+</ul>
+
+    </main>
+    <footer class="text-center text-sm text-gray-600 py-6 border-t">
+      &copy; 2025 High Rock Consultancy
+    </footer>
+  </body>
+</html>
